@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #0b1220;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+/* BUTTONS */
+.btn {
+  background: #38bdf8;
+  color: black;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-small {
+  background: #38bdf8;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.dark {
+  background: #111827;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+}
+
+/* STEPS */
+.steps {
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+/* CTA */
+.cta {
+  padding: 100px 40px;
+  text-align: center;
+  background: #0b1220;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+/* CENTER */
+.center {
+  max-width: 700px;
+  margin: auto;
+  color: #cbd5e1;
+}
